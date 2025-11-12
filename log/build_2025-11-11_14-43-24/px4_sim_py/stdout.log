@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/px4_sim_py/px4_sim_py.egg-info
+writing ../../build/px4_sim_py/px4_sim_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/px4_sim_py/px4_sim_py.egg-info/dependency_links.txt
+writing entry points to ../../build/px4_sim_py/px4_sim_py.egg-info/entry_points.txt
+writing requirements to ../../build/px4_sim_py/px4_sim_py.egg-info/requires.txt
+writing top-level names to ../../build/px4_sim_py/px4_sim_py.egg-info/top_level.txt
+writing manifest file '../../build/px4_sim_py/px4_sim_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/px4_sim_py/px4_sim_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/px4_sim_py/px4_sim_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lim/ros2_px4_ws/build/px4_sim_py/build
+creating /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib
+creating /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+copying px4_sim_py/px4_status_aggregator.py -> /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+copying px4_sim_py/__init__.py -> /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+copying px4_sim_py/gcs_mission_gateway.py -> /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+copying px4_sim_py/px4_instance_manager.py -> /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+running install
+running install_lib
+creating /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+copying /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py/px4_status_aggregator.py -> /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+copying /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py/__init__.py -> /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+copying /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py/gcs_mission_gateway.py -> /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+copying /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py/px4_instance_manager.py -> /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+byte-compiling /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py/px4_status_aggregator.py to px4_status_aggregator.cpython-310.pyc
+byte-compiling /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py/gcs_mission_gateway.py to gcs_mission_gateway.cpython-310.pyc
+byte-compiling /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py/px4_instance_manager.py to px4_instance_manager.cpython-310.pyc
+running install_data
+creating /home/lim/ros2_px4_ws/install/px4_sim_py/share/ament_index
+creating /home/lim/ros2_px4_ws/install/px4_sim_py/share/ament_index/resource_index
+creating /home/lim/ros2_px4_ws/install/px4_sim_py/share/ament_index/resource_index/packages
+copying resource/px4_sim_py -> /home/lim/ros2_px4_ws/install/px4_sim_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/lim/ros2_px4_ws/install/px4_sim_py/share/px4_sim_py
+running install_egg_info
+Copying ../../build/px4_sim_py/px4_sim_py.egg-info to /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gcs_mission_gateway script to /home/lim/ros2_px4_ws/install/px4_sim_py/lib/px4_sim_py
+Installing px4_instance_manager script to /home/lim/ros2_px4_ws/install/px4_sim_py/lib/px4_sim_py
+Installing px4_status_aggregator script to /home/lim/ros2_px4_ws/install/px4_sim_py/lib/px4_sim_py
+writing list of installed files to '/home/lim/ros2_px4_ws/build/px4_sim_py/install.log'

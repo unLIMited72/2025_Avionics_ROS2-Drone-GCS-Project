@@ -1,0 +1,45 @@
+[0.244s] Invoking command in '/home/lim/ros2_px4_ws/src/px4_sim_py': AMENT_PREFIX_PATH=/home/lim/ros2_px4_ws/install/px4_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lim/ros2_px4_ws/install/px4_interface LD_LIBRARY_PATH=/home/lim/ros2_px4_ws/install/px4_msgs/lib:/home/lim/ros2_px4_ws/install/px4_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lim/ros2_px4_ws/build/px4_sim_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages:/home/lim/ros2_px4_ws/install/px4_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_sim_py build --build-base /home/lim/ros2_px4_ws/build/px4_sim_py/build install --record /home/lim/ros2_px4_ws/build/px4_sim_py/install.log --single-version-externally-managed install_data
+[0.334s] running egg_info
+[0.334s] creating ../../build/px4_sim_py/px4_sim_py.egg-info
+[0.334s] writing ../../build/px4_sim_py/px4_sim_py.egg-info/PKG-INFO
+[0.335s] writing dependency_links to ../../build/px4_sim_py/px4_sim_py.egg-info/dependency_links.txt
+[0.335s] writing entry points to ../../build/px4_sim_py/px4_sim_py.egg-info/entry_points.txt
+[0.335s] writing requirements to ../../build/px4_sim_py/px4_sim_py.egg-info/requires.txt
+[0.335s] writing top-level names to ../../build/px4_sim_py/px4_sim_py.egg-info/top_level.txt
+[0.335s] writing manifest file '../../build/px4_sim_py/px4_sim_py.egg-info/SOURCES.txt'
+[0.335s] reading manifest file '../../build/px4_sim_py/px4_sim_py.egg-info/SOURCES.txt'
+[0.336s] writing manifest file '../../build/px4_sim_py/px4_sim_py.egg-info/SOURCES.txt'
+[0.336s] running build
+[0.336s] running build_py
+[0.336s] creating /home/lim/ros2_px4_ws/build/px4_sim_py/build
+[0.336s] creating /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib
+[0.336s] creating /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+[0.336s] copying px4_sim_py/px4_status_aggregator.py -> /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+[0.336s] copying px4_sim_py/__init__.py -> /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+[0.336s] copying px4_sim_py/gcs_mission_gateway.py -> /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+[0.336s] copying px4_sim_py/px4_instance_manager.py -> /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py
+[0.336s] running install
+[0.336s] running install_lib
+[0.337s] creating /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+[0.337s] copying /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py/px4_status_aggregator.py -> /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+[0.337s] copying /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py/__init__.py -> /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+[0.337s] copying /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py/gcs_mission_gateway.py -> /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+[0.337s] copying /home/lim/ros2_px4_ws/build/px4_sim_py/build/lib/px4_sim_py/px4_instance_manager.py -> /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py
+[0.337s] byte-compiling /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py/px4_status_aggregator.py to px4_status_aggregator.cpython-310.pyc
+[0.337s] byte-compiling /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py/__init__.py to __init__.cpython-310.pyc
+[0.338s] byte-compiling /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py/gcs_mission_gateway.py to gcs_mission_gateway.cpython-310.pyc
+[0.338s] byte-compiling /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py/px4_instance_manager.py to px4_instance_manager.cpython-310.pyc
+[0.338s] running install_data
+[0.338s] creating /home/lim/ros2_px4_ws/install/px4_sim_py/share/ament_index
+[0.338s] creating /home/lim/ros2_px4_ws/install/px4_sim_py/share/ament_index/resource_index
+[0.338s] creating /home/lim/ros2_px4_ws/install/px4_sim_py/share/ament_index/resource_index/packages
+[0.339s] copying resource/px4_sim_py -> /home/lim/ros2_px4_ws/install/px4_sim_py/share/ament_index/resource_index/packages
+[0.339s] copying package.xml -> /home/lim/ros2_px4_ws/install/px4_sim_py/share/px4_sim_py
+[0.339s] running install_egg_info
+[0.339s] Copying ../../build/px4_sim_py/px4_sim_py.egg-info to /home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages/px4_sim_py-0.0.0-py3.10.egg-info
+[0.340s] running install_scripts
+[0.349s] Installing gcs_mission_gateway script to /home/lim/ros2_px4_ws/install/px4_sim_py/lib/px4_sim_py
+[0.349s] Installing px4_instance_manager script to /home/lim/ros2_px4_ws/install/px4_sim_py/lib/px4_sim_py
+[0.349s] Installing px4_status_aggregator script to /home/lim/ros2_px4_ws/install/px4_sim_py/lib/px4_sim_py
+[0.349s] writing list of installed files to '/home/lim/ros2_px4_ws/build/px4_sim_py/install.log'
+[0.358s] Invoked command in '/home/lim/ros2_px4_ws/src/px4_sim_py' returned '0': AMENT_PREFIX_PATH=/home/lim/ros2_px4_ws/install/px4_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lim/ros2_px4_ws/install/px4_interface LD_LIBRARY_PATH=/home/lim/ros2_px4_ws/install/px4_msgs/lib:/home/lim/ros2_px4_ws/install/px4_interface/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lim/ros2_px4_ws/build/px4_sim_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lim/ros2_px4_ws/install/px4_sim_py/lib/python3.10/site-packages:/home/lim/ros2_px4_ws/install/px4_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_sim_py build --build-base /home/lim/ros2_px4_ws/build/px4_sim_py/build install --record /home/lim/ros2_px4_ws/build/px4_sim_py/install.log --single-version-externally-managed install_data

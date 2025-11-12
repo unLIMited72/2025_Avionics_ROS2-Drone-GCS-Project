@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_interface/msg/MissionPlanForDrone.msg
+// generated code does not contain a copyright notice
+
+#include "px4_interface/msg/MissionWaypoint.idl"
+
+module px4_interface {
+  module msg {
+    module MissionPlanForDrone_Constants {
+      const uint8 LANDING_HOME = 0;
+      const uint8 LANDING_LAST_WAYPOINT = 1;
+      const uint8 SPACING_DISTANCE = 0;
+    };
+    @verbatim (language="comment", text=
+      "px4_interface/msg/MissionPlanForDrone.msg")
+    struct MissionPlanForDrone {
+      string mission_id;
+
+      string drone_id;
+
+      sequence<px4_interface::msg::MissionWaypoint> waypoints;
+
+      float cruise_altitude_m;
+
+      float cruise_speed_mps;
+
+      uint8 landing_mode;
+
+      uint8 spacing_type;
+
+      float spacing_value;
+
+      boolean sequential_launch;
+
+      boolean order_by_id;
+
+      boolean heading_to_next_wp;
+    };
+  };
+};

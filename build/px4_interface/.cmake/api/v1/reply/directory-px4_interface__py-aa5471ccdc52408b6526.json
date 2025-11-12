@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "px4_interface__py",
+		"source" : "/home/lim/ros2_px4_ws/build/px4_interface/px4_interface__py"
+	}
+}

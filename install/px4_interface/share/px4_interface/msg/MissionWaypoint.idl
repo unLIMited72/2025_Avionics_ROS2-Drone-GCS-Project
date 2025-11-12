@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_interface/msg/MissionWaypoint.msg
+// generated code does not contain a copyright notice
+
+
+module px4_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "px4_interface/msg/MissionWaypoint.msg")
+    struct MissionWaypoint {
+      uint32 seq;
+
+      @verbatim (language="comment", text=
+        "deg")
+      double lat;
+
+      @verbatim (language="comment", text=
+        "deg")
+      double lon;
+
+      @verbatim (language="comment", text=
+        "meters AMSL or relative")
+      float alt;
+
+      @verbatim (language="comment", text=
+        "seconds")
+      float hold_time;
+    };
+  };
+};

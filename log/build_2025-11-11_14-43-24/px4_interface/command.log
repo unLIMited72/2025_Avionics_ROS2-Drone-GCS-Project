@@ -1,0 +1,6 @@
+Invoking command in '/home/lim/ros2_px4_ws/build/px4_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lim/ros2_px4_ws/src/px4_interface -DCMAKE_INSTALL_PREFIX=/home/lim/ros2_px4_ws/install/px4_interface
+Invoked command in '/home/lim/ros2_px4_ws/build/px4_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lim/ros2_px4_ws/src/px4_interface -DCMAKE_INSTALL_PREFIX=/home/lim/ros2_px4_ws/install/px4_interface
+Invoking command in '/home/lim/ros2_px4_ws/build/px4_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lim/ros2_px4_ws/build/px4_interface -- -j24 -l24
+Invoked command in '/home/lim/ros2_px4_ws/build/px4_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lim/ros2_px4_ws/build/px4_interface -- -j24 -l24
+Invoking command in '/home/lim/ros2_px4_ws/build/px4_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lim/ros2_px4_ws/build/px4_interface
+Invoked command in '/home/lim/ros2_px4_ws/build/px4_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lim/ros2_px4_ws/build/px4_interface

@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-699224be82d9331a588f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "px4_sim_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gcs_gyro_gateway_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gcs_gyro_gateway_node-739d0da1cfaf1fe54fdb.json",
+					"name" : "gcs_gyro_gateway_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gyro_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gyro_control_node-daab2ca348e763a1b55f.json",
+					"name" : "gyro_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_control_node-0ad9ed56fddaeb663599.json",
+					"name" : "mission_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mission_planner_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mission_planner_node-d4022f51218a730dd91f.json",
+					"name" : "mission_planner_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_interface_bag_recorder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_interface_bag_recorder-1793a9dff59ad7dab76c.json",
+					"name" : "px4_interface_bag_recorder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_sim_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_sim_cpp_uninstall-69fbc7fcff176d199153.json",
+					"name" : "px4_sim_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "px4_status_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-px4_status_node-5a2d201f2b7b72e203e5.json",
+					"name" : "px4_status_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-09b1a671eec293e9293c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lim/ros2_px4_ws/build/px4_sim_cpp",
+		"source" : "/home/lim/ros2_px4_ws/src/px4_sim_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

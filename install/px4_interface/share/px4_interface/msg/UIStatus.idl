@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_interface/msg/UIStatus.msg
+// generated code does not contain a copyright notice
+
+
+module px4_interface {
+  module msg {
+    module UIStatus_Constants {
+      @verbatim (language="comment", text=
+        "enum definitions (PX4Status와 동일)")
+      const uint8 FLIGHT_STATUS_NORMAL = 0;
+      const uint8 FLIGHT_STATUS_WARNING = 1;
+      const uint8 FLIGHT_STATUS_DANGER = 2;
+    };
+    @verbatim (language="comment", text=
+      "px4_interface/msg/UIStatus.msg")
+    struct UIStatus {
+      uint64 timestamp;
+
+      sequence<string> drone_ids;
+
+      sequence<boolean> heartbeats;
+
+      sequence<float> battery_percentages;
+
+      sequence<boolean> flight_readies;
+
+      sequence<boolean> armeds;
+
+      sequence<uint8> status_in_flights;
+
+      sequence<double> latitudes;
+
+      sequence<double> longitudes;
+
+      sequence<float> heading_degs;
+    };
+  };
+};

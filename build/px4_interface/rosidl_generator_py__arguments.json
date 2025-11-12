@@ -1,0 +1,42 @@
+{
+  "package_name": "px4_interface",
+  "output_dir": "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_generator_py/px4_interface",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/PX4Status.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/InstanceEvent.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/InstanceList.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/UIStatus.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/MissionWaypoint.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/MissionPlan.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/MissionCommand.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/MissionPlanForDrone.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/MissionStatus.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface:msg/GyroControl.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/PX4Status.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/InstanceEvent.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/InstanceList.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/UIStatus.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/MissionWaypoint.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/MissionPlan.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/MissionCommand.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/MissionPlanForDrone.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/MissionStatus.idl",
+    "/home/lim/ros2_px4_ws/build/px4_interface/rosidl_adapter/px4_interface/msg/GyroControl.idl"
+  ]
+}
